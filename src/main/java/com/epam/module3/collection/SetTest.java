@@ -4,7 +4,7 @@ import java.util.Set;
 
 import static com.epam.module3.collection.Runner.ELEMENTS_NUMBER;
 
-public class SetTest extends CollectionTest {
+public class SetTest implements CollectionTest {
 
     public long add(Object object) {
         Set<Integer> set = (Set<Integer>) object;

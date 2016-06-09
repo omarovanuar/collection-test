@@ -4,7 +4,7 @@ import java.util.Map;
 
 import static com.epam.module3.collection.Runner.ELEMENTS_NUMBER;
 
-public class MapTest extends CollectionTest {
+public class MapTest implements CollectionTest {
 
     public long add(Object object) {
         Map<Integer, Integer> map = (Map<Integer, Integer>) object;

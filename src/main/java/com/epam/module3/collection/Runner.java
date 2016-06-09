@@ -8,9 +8,9 @@ public class Runner {
     public static int index = random.nextInt(ELEMENTS_NUMBER);
 
     public static void main(String[] args) {
-        ListTest listTest = new ListTest();
-        SetTest setTest = new SetTest();
-        MapTest mapTest = new MapTest();
+        CollectionTest listTest = new ListTest();
+        CollectionTest setTest = new SetTest();
+        CollectionTest mapTest = new MapTest();
         List<Integer> array = new ArrayList<Integer>();
         List<Integer> linked = new LinkedList<Integer>();
         Set<Integer> hashSet = new HashSet<Integer>();

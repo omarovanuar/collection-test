@@ -4,7 +4,7 @@ import java.util.List;
 
 import static com.epam.module3.collection.Runner.ELEMENTS_NUMBER;
 
-public class ListTest extends CollectionTest{
+public class ListTest implements CollectionTest{
     public long add(Object object) {
         List<Integer> list = (List<Integer>) object;
         long startTime = System.nanoTime();
